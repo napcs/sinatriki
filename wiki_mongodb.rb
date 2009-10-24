@@ -1,29 +1,18 @@
 require 'rubygems'
 require 'sinatra'
-require 'activerecord'
+require 'mongomapper'
 require 'redcloth'
 
 use_in_file_templates!
 
-configure do
-  ActiveRecord::Base.establish_connection(
-    :adapter   => 'sqlite3',
-    :database    => 'wiki.sqlite3'
-  )
-
-  unless File.exist?("wiki.sqlite3")
-    ActiveRecord::Schema.define do
-      create_table :pages do |t|
-        t.string :name
-        t.text :body
-        t.string :ip
-        t.timestamps
-      end
-    end
-  end
-end
-
-class Page < ActiveRecord::Base
+class Page
+  include MongoMapper::Document
+  database 'wiki'
+  
+  key :name, String
+  key :body, String
+  key :ip, String
+  timestamps!
   
 end
 
@@ -38,21 +27,21 @@ get "/stylesheets/style.css" do
 end
 
 get "/" do
- "Hello Sinatra"
+ redirect "/Home"
 end
 
 get "/:page" do
- @page = Page.find_or_create_by_name(params[:page])
- erb :show
+  @page = Page.find_by_name(params[:page]) || Page.create(:name => params[:page])
+  erb :show
 end
 
 get "/:page/edit" do
- @page = Page.find_or_create_by_name(params[:page])
+  @page = Page.find_by_name(params[:page]) || Page.create(:name => params[:page])
  erb :edit
 end
 
 post "/:page" do
-  @page = Page.find_or_create_by_name(params[:page])
+  @page = Page.find_by_name(params[:page]) || Page.create(:name => params[:page])
   @page.body = params[:body]
   @page.ip = @env["REMOTE_ADDRESS"]
   @page.save

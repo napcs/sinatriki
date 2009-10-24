@@ -1,0 +1,45 @@
+=Sinatriki
+
+A really simple wiki written in Sinatra. Includes two versions - one using MongoDB and another using SQLite3. 
+
+==Warning
+This is not meat for production use. It's really insecure. It doesn't have versioning. It uses in-file templates. It's a demonstration of how we can use SQLite3, MongoDB, and Sinatra to get something done.
+
+==Usage:
+
+Launch the sqlite3 version with this:
+
+  ruby wiki.rb
+
+Launch the MongoDB version with this:
+
+  rake start
+  
+You will need to have MongoDB installed on the default port.
+
+=Licence
+Copyright (c) 2009 Brian Hogan
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+
+
+

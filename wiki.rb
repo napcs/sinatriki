@@ -38,7 +38,7 @@ get "/stylesheets/style.css" do
 end
 
 get "/" do
- "Hello Sinatra"
+  redirect "/Home"
 end
 
 get "/:page" do

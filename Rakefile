@@ -9,7 +9,7 @@ end
 namespace :app do
   desc "Start the application"
   task :start do
-    `shotgun app.rb`
+    `shotgun wiki_mongodb.rb`
   end
 end
 
