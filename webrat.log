@@ -1,0 +1,39 @@
+# Logfile created on Fri Oct 23 20:37:04 -0500 2009 by /
+REQUESTING PAGE: GET "/ruby" with {} and HTTP headers {}
+REQUESTING PAGE: GET /ruby with {} and HTTP headers {}
+REQUESTING PAGE: GET /ruby with {} and HTTP headers {}
+REQUESTING PAGE: GET /ruby with {} and HTTP headers {}
+REQUESTING PAGE: GET /ruby with {} and HTTP headers {}
+REQUESTING PAGE: GET /ruby with {} and HTTP headers {}
+REQUESTING PAGE: GET /ruby with {} and HTTP headers {}
+REQUESTING PAGE: GET /ruby with {} and HTTP headers {}
+REQUESTING PAGE: GET /ruby with {} and HTTP headers {}
+REQUESTING PAGE: GET /ruby with {} and HTTP headers {}
+REQUESTING PAGE: GET /ruby with {} and HTTP headers {}
+REQUESTING PAGE: GET /ruby/ruby/edit with {} and HTTP headers {"HTTP_REFERER"=>"/ruby"}
+REQUESTING PAGE: GET /ruby with {} and HTTP headers {}
+REQUESTING PAGE: GET /ruby/ruby/edit with {} and HTTP headers {"HTTP_REFERER"=>"/ruby"}
+REQUESTING PAGE: GET /ruby with {} and HTTP headers {}
+REQUESTING PAGE: GET /ruby/ruby/edit with {} and HTTP headers {"HTTP_REFERER"=>"/ruby"}
+REQUESTING PAGE: GET /ruby with {} and HTTP headers {}
+REQUESTING PAGE: GET /ruby/ruby/edit with {} and HTTP headers {"HTTP_REFERER"=>"/ruby"}
+REQUESTING PAGE: GET /ruby with {} and HTTP headers {}
+REQUESTING PAGE: GET /ruby/ruby/edit with {} and HTTP headers {"HTTP_REFERER"=>"/ruby"}
+REQUESTING PAGE: GET /ruby with {} and HTTP headers {}
+REQUESTING PAGE: GET /ruby/ruby/edit with {} and HTTP headers {"HTTP_REFERER"=>"/ruby"}
+REQUESTING PAGE: GET /ruby with {} and HTTP headers {}
+REQUESTING PAGE: GET /ruby/edit with {} and HTTP headers {"HTTP_REFERER"=>"/ruby"}
+REQUESTING PAGE: POST /ruby with {"body"=>"Ruby is the best programming language in the whole wide world!"} and HTTP headers {"HTTP_REFERER"=>"/ruby/edit"}
+REQUESTING PAGE: GET /ruby with {} and HTTP headers {"HTTP_REFERER"=>"/ruby"}
+REQUESTING PAGE: GET /ruby with {} and HTTP headers {}
+REQUESTING PAGE: GET /ruby/edit with {} and HTTP headers {"HTTP_REFERER"=>"/ruby"}
+REQUESTING PAGE: POST /ruby with {"body"=>"Ruby is the best programming language in the whole world!"} and HTTP headers {"HTTP_REFERER"=>"/ruby/edit"}
+REQUESTING PAGE: GET /ruby with {} and HTTP headers {"HTTP_REFERER"=>"/ruby"}
+REQUESTING PAGE: GET /ruby with {} and HTTP headers {}
+REQUESTING PAGE: GET /ruby/edit with {} and HTTP headers {"HTTP_REFERER"=>"/ruby"}
+REQUESTING PAGE: POST /ruby with {"body"=>"Ruby is the best programming language in the whole world!"} and HTTP headers {"HTTP_REFERER"=>"/ruby/edit"}
+REQUESTING PAGE: GET /ruby with {} and HTTP headers {"HTTP_REFERER"=>"/ruby"}
+REQUESTING PAGE: GET /ruby with {} and HTTP headers {}
+REQUESTING PAGE: GET /ruby/edit with {} and HTTP headers {"HTTP_REFERER"=>"/ruby"}
+REQUESTING PAGE: POST /ruby with {"body"=>"Ruby is the best programming language in the whole world!"} and HTTP headers {"HTTP_REFERER"=>"/ruby/edit"}
+REQUESTING PAGE: GET /ruby with {} and HTTP headers {"HTTP_REFERER"=>"/ruby"}
