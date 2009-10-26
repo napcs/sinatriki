@@ -3,7 +3,7 @@
 A really simple wiki written in Sinatra. Includes two versions - one using MongoDB and another using SQLite3. 
 
 ==Warning
-This is not meat for production use. It's really insecure. It doesn't have versioning. It uses in-file templates. It's a demonstration of how we can use SQLite3, MongoDB, and Sinatra to get something done.
+This is not meant for production use. It's really insecure. It doesn't have versioning. It uses in-file templates. It's a demonstration of how we can use SQLite3, MongoDB, and Sinatra to get something done.
 
 ==Usage:
 
